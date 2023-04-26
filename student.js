@@ -1,17 +1,32 @@
-/*
-========== LESSON 1 - VARIABLES ==========
-Complete the following numbered tasks:
-*/
-
-// 1. Declare 2 variables below:
-
-
-// Initialize 3 variables:
-
-    // 2. Assign one to the type Number below:
-
-
-    // 3. Assign one to the type Boolean below:
-    
-
-    // 4. Assign one to the type String below:
+// 1. sumOfThree function statement
+function sumOfThree(num1, num2, num3) {
+    return num1 + num2 + num3;
+  }
+  
+  
+  // 2. productofThree function expression
+  const productofThree = function(num1, num2, num3) {
+    return num1 * num2 * num3;
+  };
+  
+  
+  // 3. getRemainder arrow function
+  const getRemainder = (num1, num2) => {
+    return num1 % num2;
+  };
+  
+  
+  // 4. getRootRounded function
+  function getRootRounded(num) {
+    return Math.ceil(Math.sqrt(Math.abs(num)));
+  }
+  
+  
+  // 5. getRandom function
+  function getRandom() {
+    return Math.floor(Math.random() * 100) + 1;
+  }
+  
+  
+  // 1. getPersonStats function statement
+  
